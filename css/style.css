@@ -32,3 +32,44 @@ body{
     border: 0px;
     margin-left: -5px;
 }
+.main-menu{
+    background-color: black;
+    color: white;
+}
+.main-menu > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+.drop{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: teal;
+    display: inline-block;
+    width: 100%;
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
