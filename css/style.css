@@ -8,6 +8,10 @@ body{
     margin: 0px;
     background-color: aliceblue;
 }
+.logo-holder a img{
+    height: 150px;
+    width: 200px;
+}
 .container{
     width: 1000px;
     height: auto;
@@ -72,4 +76,70 @@ body{
 }
 .main-menu > ul > li:hover .drop{
     display: block;
+    z-index: 1;
+}
+
+.lSPager {
+    margin-top: -25px !important;
+}
+/* Content Holder */
+.content-holder{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border-bottom: 1px solid gainsboro;
+}
+.content-holder .content{
+    padding: 25px;
+    background-color: white;
+    width: 80%;
+}
+.content-holder .content h1 ~ h2{
+    font-size: 1em;
+    color: darkgrey;
+}
+.sidebar{
+    padding: 25px;
+    width: 20%;
+}
+.sidebar .widget h3{
+    color: white;
+}
+.sidebar .widget ul,
+.footer-widget ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar .widget ul > li > a,
+.footer-widget ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar .widget ul > li > a:hover{
+    color: black;
+}
+/* Footer Widget */
+.footer-widget a img{
+    height: 150px;
+    width: 200px;
+}
+.footer-widget-holder{
+    display: flex;
+    background-color: rgb(30, 28, 28);
+    color: white;
+    justify-content: space-around;
+}
+.footer-widget{
+    padding: 25px;
+    font-size: small;
+}
+.site-footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+.site-footer p{
+    margin: 0px;
 }
