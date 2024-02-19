@@ -146,16 +146,23 @@ body{
 /* Footer Widget */
 
 /* Services and Products */
-.services-holder{
+.services-holder,
+.products-holder{
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.service{
+.service,
+.product{
     padding: 20px;
     border: 1px solid gainsboro;
 }
-.service a{
+.service a,
+.product a{
     text-decoration: none;
     color: teal;
+}
+.product img{
+    width: 100%;
+    height: auto;
 }
 /* Services and Products */
