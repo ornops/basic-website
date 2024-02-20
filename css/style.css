@@ -253,6 +253,19 @@ body{
     #adaptive img{
         width: 100%;
     }
+    .content-holder{
+        flex-direction: column;
+    }
+    .content-holder .content,
+    .content-holder .sidebar{
+        width: auto;
+    }
+    .footer-widget-holder{
+        flex-direction: column;
+    }
+    .footer-widget-holder .footer-widget{
+        padding: 10px 25px;
+    }
 
 }
 
