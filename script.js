@@ -11,5 +11,5 @@ $(document).ready(function() {
     $('.toggler').click(function(){
         $('.main-menu > ul:nth-of-type(2)').toggle();
         $('.drop').css({'display':'block','position':'relative'});
-    })
+    });
 });

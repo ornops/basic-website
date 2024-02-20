@@ -37,7 +37,10 @@ body{
     border: 0px;
     margin-left: -5px;
 }
+
+/* Main Menu */
 .main-menu{
+    
     background-color: black;
     color: white;
 }
@@ -83,6 +86,8 @@ body{
 .lSPager {
     margin-top: -25px !important;
 }
+/* Main Menu */
+
 /* Banner Slider */
 .banner-slider ul li img{
     width: 1440px;
@@ -219,11 +224,11 @@ body{
 
 
 /* Mobile Menu */
-
-/* Mobile Menu */
-.mobile-menu{
+/* .mobile-menu{
     display: none !important;
-}
+} */
+/* Mobile Menu */
+
 /* Responsive Web Design */
 @media screen and (max-width: 750px) {
     .main-header{
@@ -236,6 +241,7 @@ body{
         justify-content: space-between !important;
     }
     .main-menu > ul:nth-of-type(2){
+        display: none;
         flex-direction: column;
         border-top: 1px solid gainsboro;
     }
@@ -243,6 +249,9 @@ body{
     .drop > li > a {
         display: block;
         width: auto;
+    }
+    #adaptive img{
+        width: 100%;
     }
 
 }
